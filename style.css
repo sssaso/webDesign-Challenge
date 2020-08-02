@@ -1,0 +1,126 @@
+.jumbotron {
+    max-height: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    color: rgb(7, 54, 46);
+}
+
+
+.navbar-toggler {
+    background-color: rgb(77, 153, 89);
+}
+
+body{
+    background-color: rgb(228, 247, 219);
+}
+
+h1{
+    color: rgb(18, 100, 46);
+    font-size: 200%;
+    font-weight: bold;
+    /*text-decoration: underline;*/
+    text-align: center;
+}
+
+
+h2{
+    color: rgb(18, 100, 46);
+    font-size: 180%;
+    font-weight: bold;
+    /*text-decoration: underline;*/
+    text-align: left;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+    display: inline-block;
+    padding: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    background: rgb(41, 133, 87);
+    border-radius: 3px;
+    font-size: 110%;
+    font-weight: bold;
+  }
+
+h3{
+    font-size: 130%;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(5, 65, 25, 0.829);
+}
+
+p{
+    font-size: 125%;
+    text-align: justify;
+}
+
+#i1 {
+    box-shadow: 7px 7px 7px black;
+    position: relative;
+}
+
+#i2 {
+    box-shadow: 10px 10px 10px; 
+    position: center;
+    text-align: center;
+}
+
+#i3 {
+    box-shadow: 9px 9px 9px rgb(11, 39, 13); 
+    position: center;
+    text-align: center;
+}
+
+#i4 {
+   height: 550px; 
+}
+.col-lg-3{
+    text-align: center;
+    border: 30px;
+    padding: 10px;
+}
+
+.col-lg-4{
+    text-align: left;
+}
+
+.col-lg-6{
+    text-align: center;
+}
+
+.col-lg-10{
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(187, 233, 195);
+}
+
+@media (max-width: 880px) {
+    #i2 {
+    height: 450px;
+    } 
+
+@media (max-width: 570px) {
+    #i2 {
+    height: 300px;
+    } 
+
+@media (max-width: 1100px) {
+    #i3 {
+        height: 300px;
+        } 
+    
+@media (max-width: 800px) {
+    #i3 {
+        height: 250px;
+        } 
