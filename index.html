@@ -54,27 +54,27 @@
             <div class="row">
                 <div class="col-sm-4 col-md-1 col-md-4">
                     <img id="i1" src="Resources/assets/images/Fig1.png" alt ="X=Temperature" height=210px />
-                </div>
+                </div><br>
 
                 <div class="col-md-2 col-md-4 col-md-8" >
                     <section class="posts">
                         <article class="post">
                           <h3>Purpose of the project</h3>
                           <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                              To accomplish this analysis, OpenWeatherMap API was used for data source in this project (random 570 cities around world). 
+                              To accomplish this analysis, <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</a> was used for data source in this project 
+                              (random 570 cities around world). 
                                
                           </p>
                           <h3>How we did </h3>
-                          <p>After assembling the dataset, Python Pandas/Numpy/Scipy library was used to data analysis and Matplotlib for data visualization.
+                          <p>After assembling the dataset from OpenWeather API utilizing a simple Python library <a href="https://pypi.python.org/pypi/citipy" target=blank>citipy</a>, Python Pandas/Numpy/Scipy library was used to data analysis and Matplotlib for data visualization.
                               The date for analyses was 2020-06-18. We used Matplotlib to plot various aspect of the weather vs latitude. 
                               Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations 
                               created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
                           </p>
                         </article>
                     </section>
-                    <br>
                 </div>   
-            </div><br>
+            </div>
               
         <h2>Visualizations</h2>
         <hr> <br>    
@@ -90,6 +90,16 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="windSpeed_page.html"><img id="i1" src="Resources/assets/images/Fig4.png" alt ="X=Wind Speed" height=175px /></a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6">
+                    <a id="a1" href="https://openweathermap.org/api" target="blank">OpenWeatherMap API</a>
+                </div>
+    
+                <div class="col-lg-6">
+                    <a id="a1" href="https://github.com/sssaso/Python_API_Challenge" target="blank">Github Repository for Weather Analysis</a>
                 </div>
             </div>
         </div><hr>
